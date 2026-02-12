@@ -1,0 +1,70 @@
+#home {
+  display: flex;
+  max-width: 1600px;
+  width: 90%;
+}
+
+#home > * {
+  width: 50%;
+}
+
+.content {
+  max-width: 700px;
+}
+
+#home > img {
+  object-fit: contain;
+}
+
+#home h1 {
+  font-size: 45px;
+  color: white;
+}
+
+#home h1 span {
+  font-weight: 300;
+}
+
+#home p {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.buttons button {
+  width: 250px;
+  border: none;
+  color: white;
+  background-color: #ed8a4c;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.buttons button:nth-of-type(1) {
+  background: linear-gradient(to right, #ed8a4c, #ea485c);
+  box-shadow: 0 3px 32px #ec75518a;
+}
+
+.buttons button:nth-of-type(1):hover {
+  background: #ed8a4c;
+}
+
+.buttons button:nth-of-type(2) {
+  background: #00cde4;
+  box-shadow: 0 3px 32px #00e7ea8a;
+}
+
+.buttons button:nth-of-type(2):hover {
+  background: #2ddfd1;
+}
+
+.payments {
+  display: flex;
+  justify-content: space-between;
+  max-width: 250px;
+}
+
+.payments img {
+  object-fit: contain;
+}

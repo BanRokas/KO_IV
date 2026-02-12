@@ -1,0 +1,14 @@
+body{
+  background-color: grey;
+}
+input{
+  padding: 10px; /* sukuria extra tarpą tarp rėmelių ir teksto viduje */
+  background-color: unset; /* nuima numatytąjį foną */
+  color: red; /* teksto kurį rašau spalva*/
+  border-style: solid;
+  border-color: red;
+  border-radius: 5px;
+}
+input::placeholder{
+  color: red; /* teksto kuris buvo iš pradžių spalva */
+}

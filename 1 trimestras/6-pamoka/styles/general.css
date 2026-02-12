@@ -1,0 +1,15 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: Raleway;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #aab2cd;
+  background-color: #1f2641;
+}

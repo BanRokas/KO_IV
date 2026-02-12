@@ -1,0 +1,11 @@
+.textright {
+  text-align: right;
+}
+
+.textcross {
+  text-decoration: line-through;
+}
+
+.textshadow {
+  text-shadow: 0px 0px 2px cyan;
+}
