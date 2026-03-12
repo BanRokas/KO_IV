@@ -18,9 +18,6 @@
   .grid{
     grid-template-columns: 1fr 1fr;
   }
-  /* article{
-    grid-row: auto !important;
-  } */
   .article-1, .article-2, .article-3{
     grid-row: auto;
   }
@@ -37,12 +34,9 @@
 }
 
 @media (max-width: 676px){
-  body{
-    padding-top: 150px;
-  }
   h1{
     font-size: 2.2em;
-    padding-top: 150px;
+    padding-top: 160px;
   }
   div.headline > h2{
     font-size: 1.5em;
@@ -52,5 +46,16 @@
   }
   .grid{
     grid-template-columns: 1fr;
+  }
+
+  /* NavBar */
+  nav{
+    flex-direction: column;
+    padding: 0 0 10px;
+  }
+  nav .links{
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
   }
 }
