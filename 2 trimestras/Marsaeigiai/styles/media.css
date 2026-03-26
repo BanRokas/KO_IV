@@ -5,6 +5,9 @@
   div.headline > h2{
     font-size: 3em;
   }
+  .tools{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 992px){
@@ -62,5 +65,10 @@
     flex-direction: column;
     align-items: center;
     gap: 0;
+  }
+
+  /* Tools */
+  .tools{
+    grid-template-columns: 1fr;
   }
 }

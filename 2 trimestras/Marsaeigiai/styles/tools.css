@@ -1,0 +1,55 @@
+main{
+  padding-top: 100px;
+}
+.tools-image{
+  display: block;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto 50px;
+}
+.tools{
+  max-width: 1200px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(400px, 1fr);
+  gap: 30px;
+  margin: auto;
+}
+.tool{
+  background-color: #e2ccc1;
+  color: #88847e;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+.tool:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px black;
+  transform: translateY(-10px);
+}
+.container{
+  margin-top: 20px;
+  position: relative;
+}
+.tool > .container > img{
+  width: 100%;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.313);
+  transition: 0.3s;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  place-items: center;
+}
+.container:hover > .overlay{
+  opacity: 1;
+}
